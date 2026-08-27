@@ -41,6 +41,7 @@ class Me:
         self.philosophy = "Write clean code, build great products"
         self.current_mood = "Passionate about technology"
         self.learning = ["Rust", "WebAssembly", "Unreal Engine 5"]
+```
 🛠️ Tech Stack (Full Arsenal)
 🎯 C++ (Primary Stack)
 <p align="left"> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" /> <img src="https://img.shields.io/badge/GLM-000000?style=for-the-badge&logo=glm&logoColor=white" /> <img src="https://img.shields.io/badge/STL-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Boost-00599C?style=for-the-badge&logo=boost&logoColor=white" /> <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" /> <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" /> </p>
@@ -132,4 +133,4 @@ console.log(funFacts);
 <div align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" /> </div>
 <div align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+🚀;Star+my+repos+⭐;Always+learning%2C+always+building;See+you+in+the+code!+💻" /> </div>
 <p align="center"> <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/snake.svg" alt="Snake animation" /> </p>
-<p align="center"> <i>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</i> <br /> <b>— Martin Fowler</b> </p> ```
+<p align="center"> <i>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</i> <br /> <b>— Martin Fowler</b> </p>
