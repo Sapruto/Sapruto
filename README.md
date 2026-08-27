@@ -116,6 +116,7 @@ const funFacts = {
     coding_music: "🎵 Synthwave | Lo-Fi | Metal | Classical",
     keyboard: "⌨️ Mechanical - Blue Switches (yes, I'm that person)"
 };
+console.log(funFacts);
 ```
 
 ## 🐍 My Activity (GitHub Snake)
@@ -125,19 +126,13 @@ const funFacts = {
 </p>
 
 
-## 🌌 Some sphere, why not?
+## 🌌 Some sphere, why not? With my stack(again, i know).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/holographic-sphere.svg" alt="Holographic Sphere" width="700" />
 </p>
 
-## 🕸️ Some stack(again)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/tech-graph.svg" alt="Tech Graph" width="700" />
-</p>
-
-console.log(funFacts);
 📊 Weekly Development Breakdown
 <!--START_SECTION:waka--><!-- This section is auto-updated by Wakapi or WakaTime --><!--END_SECTION:waka-->
 
