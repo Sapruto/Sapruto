@@ -125,14 +125,10 @@ const funFacts = {
 </p>
 
 
-## 🌌 Cubinder, why not?
+## 🌌 Some sphere, why not?
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/4d-cube.svg" alt="4D Hypercube" width="700" />
-</p>
-
-<p align="center">
-  <i>⚡ On the vertices of this 4-dimensional cube — my technologies and projects</i>
+  <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/holographic-sphere.svg" alt="Holographic Sphere" width="700" />
 </p>
 
 ## 🕸️ Some stack(again)
