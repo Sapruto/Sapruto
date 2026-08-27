@@ -34,7 +34,8 @@ public:
         std::cout << "🚀 Building the future, one line of code at a time!" << std::endl;
     }
 };
-python
+```
+```python
 # This one's for the soul :)
 class Me:
     def __init__(self):
