@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <style>
+    @keyframes spin {
+      0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+      100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    .cube-container {
+      animation: spin 20s linear infinite;
+      transform-style: preserve-3d;
+      transform-origin: center;
+    }
+    .vertex {
+      animation: pulse 3s ease-in-out infinite;
+    }
+    .vertex:nth-child(1) { animation-delay: 0s; }
+    .vertex:nth-child(2) { animation-delay: 0.3s; }
+    .vertex:nth-child(3) { animation-delay: 0.6s; }
+    .vertex:nth-child(4) { animation-delay: 0.9s; }
+    .vertex:nth-child(5) { animation-delay: 1.2s; }
+    .vertex:nth-child(6) { animation-delay: 1.5s; }
+    .vertex:nth-child(7) { animation-delay: 1.8s; }
+    .vertex:nth-child(8) { animation-delay: 2.1s; }
+    .vertex:nth-child(9) { animation-delay: 2.4s; }
+    .vertex:nth-child(10) { animation-delay: 2.7s; }
+    .vertex:nth-child(11) { animation-delay: 3.0s; }
+    .vertex:nth-child(12) { animation-delay: 3.3s; }
+    .vertex:nth-child(13) { animation-delay: 3.6s; }
+    .vertex:nth-child(14) { animation-delay: 3.9s; }
+    .vertex:nth-child(15) { animation-delay: 4.2s; }
+    .vertex:nth-child(16) { animation-delay: 4.5s; }
+    text {
+      fill: #00ff00;
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      text-anchor: middle;
+      dominant-baseline: central;
+      filter: drop-shadow(0 0 5px #00ff00);
+    }
+    .line {
+      stroke: #00ff00;
+      stroke-width: 1;
+      opacity: 0.3;
+      animation: pulse 4s ease-in-out infinite;
+    }
+  </style>
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="#0a0a0a" />
+  <g transform="translate(400, 300) scale(1.2)">
+    <g class="cube-container">
+      <g filter="url(#glow)">
+        <circle cx="-100" cy="-100" r="8" fill="#ff6b6b" class="vertex"/>
+        <text x="-100" y="-120" class="vertex">C++</text>
+        <circle cx="100" cy="-100" r="8" fill="#4ecdc4" class="vertex"/>
+        <text x="100" y="-120" class="vertex">Python</text>
+        <circle cx="-100" cy="100" r="8" fill="#ffe66d" class="vertex"/>
+        <text x="-100" y="120" class="vertex">C#</text>
+        <circle cx="100" cy="100" r="8" fill="#a8e6cf" class="vertex"/>
+        <text x="100" y="120" class="vertex">React</text>
+        <circle cx="-70" cy="-70" r="8" fill="#ff8a5c" class="vertex"/>
+        <text x="-70" y="-90" class="vertex">OpenGL</text>
+        <circle cx="70" cy="-70" r="8" fill="#6c5ce7" class="vertex"/>
+        <text x="70" y="-90" class="vertex">FastAPI</text>
+        <circle cx="-70" cy="70" r="8" fill="#fd79a8" class="vertex"/>
+        <text x="-70" y="90" class="vertex">Unity</text>
+        <circle cx="70" cy="70" r="8" fill="#00b894" class="vertex"/>
+        <text x="70" y="90" class="vertex">Docker</text>
+        <circle cx="-130" cy="-130" r="6" fill="#e17055" class="vertex"/>
+        <text x="-130" y="-150" class="vertex">Qt</text>
+        <circle cx="130" cy="-130" r="6" fill="#00cec9" class="vertex"/>
+        <text x="130" y="-150" class="vertex">SQL</text>
+        <circle cx="-130" cy="130" r="6" fill="#fdcb6e" class="vertex"/>
+        <text x="-130" y="150" class="vertex">Arduino</text>
+        <circle cx="130" cy="130" r="6" fill="#81ecec" class="vertex"/>
+        <text x="130" y="150" class="vertex">ROS</text>
+        <circle cx="-50" cy="-50" r="6" fill="#fab1a0" class="vertex"/>
+        <text x="-50" y="-65" class="vertex">Git</text>
+        <circle cx="50" cy="-50" r="6" fill="#dfe6e9" class="vertex"/>
+        <text x="50" y="-65" class="vertex">Linux</text>
+        <circle cx="-50" cy="50" r="6" fill="#b2bec3" class="vertex"/>
+        <text x="-50" y="65" class="vertex">K8s</text>
+        <circle cx="50" cy="50" r="6" fill="#636e72" class="vertex"/>
+        <text x="50" y="65" class="vertex">Rust</text>
+      </g>
+      <g class="line">
+        <line x1="-100" y1="-100" x2="100" y2="-100" />
+        <line x1="-100" y1="-100" x2="-100" y2="100" />
+        <line x1="100" y1="-100" x2="100" y2="100" />
+        <line x1="-100" y1="100" x2="100" y2="100" />
+        <line x1="-70" y1="-70" x2="70" y2="-70" />
+        <line x1="-70" y1="-70" x2="-70" y2="70" />
+        <line x1="70" y1="-70" x2="70" y2="70" />
+        <line x1="-70" y1="70" x2="70" y2="70" />
+        <line x1="-100" y1="-100" x2="-70" y2="-70" />
+        <line x1="100" y1="-100" x2="70" y2="-70" />
+        <line x1="-100" y1="100" x2="-70" y2="70" />
+        <line x1="100" y1="100" x2="70" y2="70" />
+        <line x1="-130" y1="-130" x2="130" y2="-130" />
+        <line x1="-130" y1="-130" x2="-130" y2="130" />
+        <line x1="130" y1="-130" x2="130" y2="130" />
+        <line x1="-130" y1="130" x2="130" y2="130" />
+        <line x1="-130" y1="-130" x2="-100" y2="-100" />
+        <line x1="130" y1="-130" x2="100" y2="-100" />
+        <line x1="-130" y1="130" x2="-100" y2="100" />
+        <line x1="130" y1="130" x2="100" y2="100" />
+        <line x1="-100" y1="-100" x2="100" y2="100" />
+        <line x1="100" y1="-100" x2="-100" y2="100" />
+        <line x1="-130" y1="-130" x2="130" y2="130" />
+        <line x1="130" y1="-130" x2="-130" y2="130" />
+      </g>
+    </g>
+  </g>
+  <text x="400" y="570" fill="#00ff00" font-family="monospace" font-size="14" text-anchor="middle" opacity="0.7">
+    🌌 4D Hypercube — My Tech Universe
+  </text>
+</svg>
