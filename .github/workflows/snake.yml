@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Snake
 
 on:
   schedule:
@@ -12,12 +12,10 @@ jobs:
       contents: write
     
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-          
-      - name: Generate Snake
+        
+      - name: Generate snake.svg
         uses: Platane/snk@v3
         id: snake-gif
         with:
@@ -25,8 +23,10 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-      - name: Deploy to output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
