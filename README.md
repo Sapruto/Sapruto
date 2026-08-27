@@ -118,6 +118,29 @@ const funFacts = {
 };
 ```
 
+## 🐍 My Activity (GitHub Snake)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
+
+
+## 🌌 Cubinder, why not?
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/4d-cube.svg" alt="4D Hypercube" width="700" />
+</p>
+
+<p align="center">
+  <i>⚡ On the vertices of this 4-dimensional cube — my technologies and projects</i>
+</p>
+
+## 🕸️ Some stack(again)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/tech-graph.svg" alt="Tech Graph" width="700" />
+</p>
+
 console.log(funFacts);
 📊 Weekly Development Breakdown
 <!--START_SECTION:waka--><!-- This section is auto-updated by Wakapi or WakaTime --><!--END_SECTION:waka-->
