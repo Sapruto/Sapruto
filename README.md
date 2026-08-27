@@ -132,10 +132,7 @@ console.log(funFacts);
 🗳️ Support My Work
 <p align="center"> <a href="https://www.buymeacoffee.com/Sapruto"> <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" /> </a> <a href="https://www.patreon.com/Sapruto"> <img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white" /> </a> <a href="https://github.com/sponsors/Sapruto"> <img src="https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" /> </a> </p>
 <div align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" /> </div>
+<div align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" /> </div>
 <div align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+🚀;Star+my+repos+⭐;Always+learning%2C+always+building;See+you+in+the+code!+💻" /> </div>
-## 📊 Activity Graph
-<p align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sapruto&theme=react-dark&hide_border=true" />
-  </a>
-</p>
+<p align="center"> <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/snake.svg" alt="Snake animation" /> </p>
+<p align="center"> <i>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</i> <br /> <b>— Martin Fowler</b> </p>
