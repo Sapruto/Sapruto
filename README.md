@@ -21,7 +21,6 @@ class Developer {
 public:
     std::string name = "Sapruto";
     std::string role = "Senior Software Engineer";
-    int experience = 8;  // years in development
     std::vector<std::string> passions = {
         "High-performance systems",
         "Game development",
@@ -35,6 +34,8 @@ public:
     }
 };
 ```
+
+
 ```python
 # This one's for the soul :)
 class Me:
@@ -43,6 +44,7 @@ class Me:
         self.current_mood = "Passionate about technology"
         self.learning = ["Rust", "WebAssembly", "Unreal Engine 5"]
 ```
+
 🛠️ Tech Stack (Full Arsenal)
 🎯 C++ (Primary Stack)
 <p align="left"> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" /> <img src="https://img.shields.io/badge/GLM-000000?style=for-the-badge&logo=glm&logoColor=white" /> <img src="https://img.shields.io/badge/STL-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Boost-00599C?style=for-the-badge&logo=boost&logoColor=white" /> <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" /> <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" /> </p>
@@ -68,11 +70,10 @@ class Me:
 <p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=Sapruto&theme=radical&no-frame=true&row=3&column=4" /> </p>
 📌 Pinned Projects
 🎯 Featured Projects
-<p align="center"> <a href="https://github.com/Sapruto/BearEngine/tree/AMOGUS"> <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sapruto&repo=BearEngine&theme=radical&hide_border=true" /> </a> <a href="https://github.com/Sapruto/SnakeOnline"> <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sapruto&repo=SnakeOnline&theme=radical&hide_border=true" /> </a> </p><p align="center"> <strong>BearEngine</strong> — Игровой движок на C++ и OpenGL (ветка AMOGUS).<br /> <strong>SnakeOnline</strong> — Многопользовательская игра "Змейка" на Python. </p><p align="center"> <a href="https://github.com/Sapruto/CardGame"> <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sapruto&repo=CardGame&theme=radical&hide_border=true" /> </a> <a href="https://github.com/Sapruto/R6D7"> <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sapruto&repo=R6D7&theme=radical&hide_border=true" /> </a> </p><p align="center"> <strong>CardGame</strong> — Игра в карты с AI-оппонентами.<br /> <strong>R6D7</strong> — Творческий проект (исследование или игра). </p><p align="center"> <a href="https://github.com/Sapruto/BearoGramm"> <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sapruto&repo=BearoGramm&theme=radical&hide_border=true" /> </a> </p><p align="center"> <strong>BearoGramm</strong> — Клон Telegram или бот-мессенджер. </p>
-🔥 Activity Heatmap
-<p align="center"> <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/github-contribution-grid-snake.svg" /> </p>
+<p align="center"> <a href="https://github.com/Sapruto/BearEngine/tree/AMOGUS"> <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sapruto&repo=BearEngine&theme=radical&hide_border=true" /> </a> <a href="https://github.com/Sapruto/SnakeOnline"> <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sapruto&repo=SnakeOnline&theme=radical&hide_border=true" /> </a> </p><p align="center"> <strong>BearEngine</strong> — GameEngine on C++ and OpenGL (tree AMOGUS).<br /> <strong>SnakeOnline</strong> — Многопользовательская игра "Змейка" на Python. </p><p align="center"> <a href="https://github.com/Sapruto/CardGame"> <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sapruto&repo=CardGame&theme=radical&hide_border=true" /> </a> <a href="https://github.com/Sapruto/R6D7"> <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sapruto&repo=R6D7&theme=radical&hide_border=true" /> </a> </p><p align="center"> <strong>CardGame</strong> — Game-test with cards.<br /> <strong>R6D7</strong> My R2D2 but on steroid and in real live </p><p align="center"> <a href="https://github.com/Sapruto/BearoGramm"> <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sapruto&repo=BearoGramm&theme=radical&hide_border=true" /> </a> </p><p align="center"> <strong>BearoGramm</strong> — KILLER OF TELERGAMM(in develop with dimabreus) </p>
 💡 Development Philosophy
-python
+
+```python
 class DevelopmentPhilosophy:
     def __init__(self):
         self.principles = [
@@ -93,28 +94,18 @@ class DevelopmentPhilosophy:
         if not self.has_tests(code):
             return "🟡 Where are the tests?"
         return "🟢 Ship it! 🚀"
+```
+
 🌟 What I'm Currently Working On
 
-
-
-
-
-
-
-
-
-
-
-
-
 📫 Let's Connect
-<p align="center"> <a href="https://t.me/Sapruto"> <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/your-linkedin"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="mailto:your.email@gmail.com"> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://your-website.com"> <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=about.me&logoColor=white" /> </a> <a href="https://discord.gg/your-discord"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /> </a> <a href="https://youtube.com/@your-channel"> <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /> </a> </p>
-📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START --><!-- This section is auto-updated via GitHub Actions --><!-- BLOG-POST-LIST:END -->
+<p align="center"> <a href="https://t.me/Sapruto"> <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/your-linkedin"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="alex.sapryka@gmail.com"> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /> </a></a> </a>
+
 🎮 Gaming & Tech Stack
 <p align="center"> <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" /> <img src="https://img.shields.io/badge/Epic_Games-313131?style=for-the-badge&logo=epicgames&logoColor=white" /> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white" /> <img src="https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=white" /> <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" /> </p>
 ⚡ Fun Facts
-javascript
+
+```typescript
 const funFacts = {
     caffeine_dependency: "☕ 5+ cups of coffee a day keeps the bugs away",
     first_language: "C++ (and I still love it ❤️)",
@@ -125,14 +116,12 @@ const funFacts = {
     coding_music: "🎵 Synthwave | Lo-Fi | Metal | Classical",
     keyboard: "⌨️ Mechanical - Blue Switches (yes, I'm that person)"
 };
+```
 
 console.log(funFacts);
 📊 Weekly Development Breakdown
 <!--START_SECTION:waka--><!-- This section is auto-updated by Wakapi or WakaTime --><!--END_SECTION:waka-->
-🗳️ Support My Work
-<p align="center"> <a href="https://www.buymeacoffee.com/Sapruto"> <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" /> </a> <a href="https://www.patreon.com/Sapruto"> <img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white" /> </a> <a href="https://github.com/sponsors/Sapruto"> <img src="https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" /> </a> </p>
-<div align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" /> </div>
+
 <div align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" /> </div>
 <div align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+🚀;Star+my+repos+⭐;Always+learning%2C+always+building;See+you+in+the+code!+💻" /> </div>
-<p align="center"> <img src="https://raw.githubusercontent.com/Sapruto/Sapruto/output/snake.svg" alt="Snake animation" /> </p>
 <p align="center"> <i>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</i> <br /> <b>— Martin Fowler</b> </p>
