@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <style>
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 0.8; }
+    }
+    @keyframes glow {
+      0%, 100% { filter: drop-shadow(0 0 5px #00ff00); }
+      50% { filter: drop-shadow(0 0 20px #00ff00); }
+    }
+    .sphere {
+      animation: rotate 30s linear infinite;
+      transform-origin: 400px 300px;
+    }
+    .ring {
+      animation: rotate 20s linear infinite reverse;
+      transform-origin: 400px 300px;
+    }
+    .node {
+      animation: pulse 3s ease-in-out infinite;
+    }
+    .node-text {
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      font-weight: bold;
+      text-anchor: middle;
+      dominant-baseline: central;
+      fill: #ffffff;
+      filter: drop-shadow(0 0 10px rgba(0,255,0,0.5));
+    }
+    .line {
+      stroke: #00ff00;
+      stroke-width: 0.8;
+      opacity: 0.2;
+      animation: pulse 4s ease-in-out infinite;
+    }
+    .label {
+      fill: #00ff00;
+      font-family: 'Courier New', monospace;
+      font-size: 11px;
+      opacity: 0.6;
+    }
+  </style>
+  
+  <defs>
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff00" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#00ff00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="600" fill="#0a0a0a" />
+  
+  <circle cx="400" cy="300" r="250" fill="url(#glowGradient)" />
+  
+  <text x="400" y="30" fill="#00ff00" font-family="monospace" font-size="20" text-anchor="middle" filter="url(#glow)">
+    ⚡ My Tech Universe
+  </text>
+  
+  <g filter="url(#glow)">
+    <g class="sphere">
+      <circle cx="400" cy="300" r="180" fill="none" stroke="#00ff00" stroke-width="0.5" opacity="0.1" />
+      <circle cx="400" cy="300" r="120" fill="none" stroke="#00ff00" stroke-width="0.5" opacity="0.2" />
+      <circle cx="400" cy="300" r="60" fill="none" stroke="#00ff00" stroke-width="0.5" opacity="0.3" />
+    </g>
+    
+    <g class="ring">
+      <ellipse cx="400" cy="300" rx="200" ry="80" fill="none" stroke="#00ff00" stroke-width="0.5" opacity="0.3" />
+      <ellipse cx="400" cy="300" rx="80" ry="200" fill="none" stroke="#00ff00" stroke-width="0.5" opacity="0.3" />
+    </g>
+    
+    <g>
+      <circle cx="400" cy="300" r="45" fill="#ff6b6b" class="node" />
+      <text x="400" y="300" class="node-text" font-size="16">Sapruto</text>
+    </g>
+    
+    <g>
+      <circle cx="250" cy="150" r="35" fill="#4ecdc4" class="node" />
+      <text x="250" y="150" class="node-text">C++</text>
+    </g>
+    
+    <g>
+      <circle cx="550" cy="150" r="35" fill="#ffe66d" class="node" />
+      <text x="550" y="150" class="node-text">Python</text>
+    </g>
+    
+    <g>
+      <circle cx="200" cy="450" r="35" fill="#a8e6cf" class="node" />
+      <text x="200" y="450" class="node-text">Unity</text>
+    </g>
+    
+    <g>
+      <circle cx="600" cy="450" r="35" fill="#ff8a5c" class="node" />
+      <text x="600" y="450" class="node-text">React</text>
+    </g>
+    
+    <g>
+      <circle cx="320" cy="100" r="30" fill="#6c5ce7" class="node" />
+      <text x="320" y="100" class="node-text">OpenGL</text>
+    </g>
+    
+    <g>
+      <circle cx="480" cy="100" r="30" fill="#fd79a8" class="node" />
+      <text x="480" y="100" class="node-text">FastAPI</text>
+    </g>
+    
+    <g>
+      <circle cx="320" cy="500" r="30" fill="#00b894" class="node" />
+      <text x="320" y="500" class="node-text">Docker</text>
+    </g>
+    
+    <g>
+      <circle cx="480" cy="500" r="30" fill="#e17055" class="node" />
+      <text x="480" y="500" class="node-text">SQL</text>
+    </g>
+    
+    <g>
+      <circle cx="150" cy="280" r="28" fill="#00cec9" class="node" />
+      <text x="150" y="280" class="node-text">Arduino</text>
+    </g>
+    
+    <g>
+      <circle cx="650" cy="280" r="28" fill="#fdcb6e" class="node" />
+      <text x="650" y="280" class="node-text">ROS</text>
+    </g>
+    
+    <g>
+      <circle cx="450" cy="200" r="26" fill="#81ecec" class="node" />
+      <text x="450" y="200" class="node-text">Git</text>
+    </g>
+    
+    <g>
+      <circle cx="350" cy="200" r="26" fill="#dfe6e9" class="node" />
+      <text x="350" y="200" class="node-text">Linux</text>
+    </g>
+  </g>
+  
+  <g class="line">
+    <line x1="400" y1="300" x2="250" y2="150" />
+    <line x1="400" y1="300" x2="550" y2="150" />
+    <line x1="400" y1="300" x2="200" y2="450" />
+    <line x1="400" y1="300" x2="600" y2="450" />
+    <line x1="400" y1="300" x2="320" y2="100" />
+    <line x1="400" y1="300" x2="480" y2="100" />
+    <line x1="400" y1="300" x2="320" y2="500" />
+    <line x1="400" y1="300" x2="480" y2="500" />
+    <line x1="400" y1="300" x2="150" y2="280" />
+    <line x1="400" y1="300" x2="650" y2="280" />
+    <line x1="400" y1="300" x2="450" y2="200" />
+    <line x1="400" y1="300" x2="350" y2="200" />
+  </g>
+  
+  <g class="line" opacity="0.1">
+    <line x1="250" y1="150" x2="320" y2="100" />
+    <line x1="550" y1="150" x2="480" y2="100" />
+    <line x1="250" y1="150" x2="150" y2="280" />
+    <line x1="550" y1="150" x2="650" y2="280" />
+    <line x1="200" y1="450" x2="150" y2="280" />
+    <line x1="600" y1="450" x2="650" y2="280" />
+    <line x1="320" y1="500" x2="200" y2="450" />
+    <line x1="480" y1="500" x2="600" y2="450" />
+    <line x1="320" y1="100" x2="350" y2="200" />
+    <line x1="480" y1="100" x2="450" y2="200" />
+    <line x1="350" y1="200" x2="450" y2="200" />
+  </g>
+  
+  <g class="label">
+    <rect x="20" y="550" width="12" height="12" fill="#00ff00" rx="2" />
+    <text x="40" y="562">Main connections</text>
+    <rect x="200" y="550" width="12" height="12" fill="#ff00ff" rx="2" opacity="0.3" />
+    <text x="220" y="562">Cross-connections</text>
+    <rect x="380" y="550" width="12" height="12" fill="#ff6b6b" rx="6" />
+    <text x="400" y="562">Center node</text>
+    <rect x="540" y="550" width="12" height="12" fill="#4ecdc4" rx="6" />
+    <text x="560" y="562">Technologies</text>
+  </g>
+</svg>
